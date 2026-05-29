@@ -1,13 +1,17 @@
-# Portfolio
+# Ledana's Portfolio Website
 
-This repository showcases my projects as an aspiring Junior Backend .NET Developer.  
-It includes work in **C#**, **ASP.NET Core Web APIs**, **SQL**, and creative coding projects.  
+🚀 Live Demo: [View Portfolio](https://ledana.github.io/portfolioWebsite)
 
-### Featured Projects
-- **E‑Commerce API** – RESTful API with authentication and product management  
-- **Shifts Logger** – Employee shift tracking with database persistence  
-- **Bank Account Manager** – Console app for account operations and transactions  
+## Featured Projects
+- **E‑Commerce API** – RESTful API with authentication & product management
+- **Shifts Logger** – Employee shift tracking with database persistence
+- **Bank Account Manager** – Console app for account operations
 
-### Purpose
-The portfolio highlights my technical skills, clean code practices, and ability to build scalable solutions.  
-It serves as a recruiter‑ready overview of my work and learning journey.
+## Skills
+- C#, ASP.NET Core, SQL, EF Core
+- Git/GitHub, Postman, API Testing
+- Frontend basics: HTML, CSS, JS
+
+## Contact
+📧 Email: yourname@example.com  
+🔗 LinkedIn: [linkedin.com/in/ledana](https://linkedin.com/in/ledana)
