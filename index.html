@@ -46,7 +46,7 @@
 
     <main>
         <!-- SECTION 1: Hero -->
-         <section class="hero-section">
+         <section id="hero" class="hero-section">
             <div class="text">
                 <h2>Hi, I am Ledana 👋</h2>
                 <p>Junior C#/.NET Developer with a background in Economic Engineering and a strong passion for problem solving, backend development, and learning new technologies.
@@ -88,33 +88,27 @@ I enjoy understanding how systems work, solving problems logically, and continuo
             <div class="text">
 I enjoy working with modern technologies that bring ideas to life through clean, efficient code and thoughtful design. My toolkit blends backend development, database management, and web fundamentals — helping me build reliable, scalable, and visually polished projects.
             </div>
-
             <div class="cells">
                 <div class="cell">
                     <img src="images/csharp-128.png" alt="html logo">
                     <span>C#</span>
                 </div>
-
                 <div class="cell">
                     <img src="images/dotnet-core (1).svg" alt="dotnetcore logo">
                     <span>.NET Core</span>
                 </div>
-
                 <div class="cell">
                     <img src="images/Git-Icon-Black.webp" alt="git logo">
                     <span>Git</span>
                 </div>
-
                 <div class="cell">
                     <img src="images/html-logo.webp" alt="html logo">
                     <span>HTML</span>
                 </div>
-
                 <div class="cell">
                     <img src="images/css-logo.webp" alt="css logo">
                     <span>CSS</span>
                 </div>
-
                 <div class="cell">
                 <img src="images/database-_1_.webp" alt="sql logo">
                     <span>SQL</span>
@@ -123,43 +117,42 @@ I enjoy working with modern technologies that bring ideas to life through clean,
          </section>
 
          <!-- SECTION 3: Projects -->
-         <section id="projects">
-            <p class="section__text__p1">Browse My Recent</p>
-            <h1 class="title">Projects</h1>
-            <div class="experience-details-container">
-                <div class="details-container color-container">
+         <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-container">
+
+                <div class="project-container">
                     <div class="article-container">
-                        <img src="images/OIP.webp" alt="Project 1" class="project-img"/>
+                        <img src="images/OIP_cropped.webp" alt="Project 1" class="project-img"/>
                     </div>
-                    <h2 class="experinece-sub-title project-title">E-Commerce</h2>
+                    <h3>E-Commerce</h3>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Ledana/EcommerceAPI.Ledana'">
+                        <button class="project-btn" onclick="location.href='https://github.com/Ledana/EcommerceAPI.Ledana'">
                             GitHub
                         </button>
-
                     </div>
                 </div>
 
-                <div class="details-container color-container">
+                <div class="project-container">
                     <div class="article-container">
                         <img src="images/download.webp" alt="Project 2" class="project-img"/>
                     </div>
-                    <h2 class="experinece-sub-title project-title">Shifts Logger</h2>
+                    <h3>Shifts Logger</h3>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Ledana/ShiftsLogger.Ledana'">
+                        <button class="project-btn" onclick="location.href='https://github.com/Ledana/ShiftsLogger.Ledana'">
                             GitHub
                         </button>
 
                     </div>
                 </div>
 
-                <div class="details-container color-container">
+                <div class="project-container">
                     <div class="article-container">
-                        <img src="images/OIP (1).webp" alt="Project 3" class="project-img"/>
+                        <img src="images/bank.webp" alt="Project 3" class="project-img"/>
                     </div>
-                    <h2 class="experinece-sub-title project-title">Bank Account Manager</h2>
+                    <h3>Bank Account Manager</h3>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Ledana/BankAccountManagerConsole'">
+                        <button class="project-btn" onclick="location.href='https://github.com/Ledana/BankAccountManagerConsole'">
                             GitHub
                         </button>
 
@@ -168,7 +161,22 @@ I enjoy working with modern technologies that bring ideas to life through clean,
             </div>
          </section>
 
-         
+         <footer>
+            <nav class="footer-nav">
+                <div class="nav-links-container">
+                    <a href="#hero">
+                        <span>About</span>
+                    </a>
+                    <a href="#skills">    
+                        <span>Skills</span>
+                    </a>
+                    <a href="#projects">
+                        <span>Projects</span>
+                    </a>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2026 Ledana Gjoka. All rights reserved.</p>
+         </footer>
     </main>
     <script src="script.js"></script>
 </body>
