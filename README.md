@@ -12,5 +12,5 @@
 - Frontend basics: HTML, CSS, JS
 
 ## Contact
-📧 Email: yourname@example.com  
+📧 Email: ledanagjoka66@gmail.com  
 🔗 LinkedIn: [linkedin.com/in/ledana](https://linkedin.com/in/ledana)
