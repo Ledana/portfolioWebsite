@@ -1,6 +1,5 @@
 # Ledana's Portfolio Website
 
-🚀 Live Demo: [View Portfolio](https://ledana.github.io/portfolioWebsite)
 
 ## Featured Projects
 - **E‑Commerce API** – RESTful API with authentication & product management
